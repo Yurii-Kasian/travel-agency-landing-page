@@ -1,0 +1,251 @@
+/*---specification---*/
+body{
+    font: 16px 'Museo Sans Cyrl 100', sans-serif;
+    background-color: white;
+}
+
+/*.btn.btn-primary{*/
+/*    background-color: transparent;*/
+/*    border-color: #fff;*/
+/*    text-transform: uppercase;*/
+/*    font-size: 11px;*/
+/*    line-height: 11px;*/
+/*    padding: 12px 26px;*/
+/*    -webkit-border-radius: 7px;*/
+/*    border-radius: 7px;*/
+/*    font-weight: 800;*/
+/*}*/
+
+
+
+
+.btn-page{
+    border: 2px dashed white;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    top: 0;
+    -weebkit-transform: translate(-50% 0);
+    transform: translate(-50% 0);
+
+}
+
+.btn-page:after{
+    content: "";
+    position: absolute;
+    left: 32%;
+    top: 45%;
+    -webkit-transform: translate(-50% -50%);
+    transform: translate(-50% -50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 5.5px 0 5.5px;
+    border-color: white transparent transparent transparent;
+
+}
+
+/*---header---*/
+
+.main-header{
+    padding-top: 24px;
+    padding-bottom: 18px;
+}
+
+.top-header{
+    height: 762px;
+    background-image: url("../img/header_bg.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    opacity:0.7;
+    -moz-opacity:0.8;
+    filter: alpha(opacity=80) black;
+    -khtml-opacity: 0.8;
+    background-color:#000;
+}
+
+
+.main-nav__list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+.main-nav__item{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 11px;
+}
+.main-nav__link{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f4f6f7;
+    font-weight: 800;
+    padding: 10px 10px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    font-size: 11px;
+    line-height: 17px;
+}
+.main-nav__link:hover{
+    color: #fff;
+    text-decoration: none;
+
+}
+.main-nav__link:active{
+    color: #fff;
+    background-color: #3a6275;
+}
+
+.phone__icon {
+    color: #24a5db;
+    border: 1px dashed #24a5db;
+    text-align: center;
+    line-height: 25px;
+    background-color: #215a78;
+}
+
+.b-contacts__phone{
+    position: relative;
+}
+
+.tube{
+    width: 26px;
+    height: 26px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    line-height: 24px;
+    font-size: 12px;
+    top: 25%;
+    left: -35%;
+}
+
+.tube:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: #fff;
+    color: #fff;
+}
+
+.pulse {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s
+}
+
+.b-contacts__numbers a{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 21px;
+    color: white;
+}
+
+.b-contacts{
+    text-align: right;
+}
+
+.b-contacts__numbers{
+    margin-left: 36px;
+    margin-bottom: 10px;
+    width: 160px;
+}
+
+.b-contacts__numbers a:hover{
+    text-decoration: none;
+}
+
+.text-header{
+    width: 754px;
+    font-weight: 800;
+    opacity: 0.91;
+    text-shadow: 0 0 46px rgba(0, 0, 0, 0.31);
+    color: #ffffff;
+    font-size: 90px;
+    line-height: 82px;
+    letter-spacing: 41.4px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    margin-top: 204px;
+}
+
+.text-header__description{
+    font-size: 51px;
+    letter-spacing: 10.2px;
+    font-weight: 400;
+}
+
+.arrow-header{
+    border-radius: 50%;
+    text-align: center;
+    line-height: 46px;
+    width: 46px;
+    height: 46px;
+    border: 1px dashed #ffffff;
+    text-align: center;
+    margin: auto;
+    margin-top: 168px;
+}
+
+.arrow-header i{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----footer----*/
+.main-footer{
+    background-color: #23aae2;
+    padding-top: 31px;
+    padding-bottom: 23px;
+}
+
+.show-modal{
+    border-bottom: 1px dotted #d9d9d9;
+    cursor: pointer;
+    margin-left: 120px;
+}
+
+.credits{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: white;
+  }
