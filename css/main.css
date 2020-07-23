@@ -2,6 +2,8 @@
 body{
     font: 16px 'Museo Sans Cyrl 100', sans-serif;
     background-color: white;
+    padding: 0;
+    margin: 0;
 }
 
 /*.btn.btn-primary{*/
@@ -52,22 +54,32 @@ body{
 
 /*---header---*/
 
-.main-header{
-    padding-top: 24px;
-    padding-bottom: 18px;
+
+
+.header {
+    height: 762px;
+    background: url('../img/header_bg.png') no-repeat fixed center top/cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
-.top-header{
-    height: 762px;
-    background-image: url("../img/header_bg.png");
-    background-position: left bottom;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    opacity:0.7;
-    -moz-opacity:0.8;
-    filter: alpha(opacity=80) black;
-    -khtml-opacity: 0.8;
-    background-color:#000;
+.header:after {
+    content: "";
+    background-color: rgba(30, 53, 70, 0.90);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.top-header:after{
+    content: "";
+    background-color: rgba(30, 53, 70, 2.0);
 }
 
 
@@ -109,7 +121,7 @@ body{
     border: 1px dashed #24a5db;
     text-align: center;
     line-height: 25px;
-    background-color: #215a78;
+    background-color: #103246;
 }
 
 .b-contacts__phone{
@@ -254,9 +266,28 @@ body{
 /*----  Second section ----*/
 
 .moving-content{
-    margin-top: 97px;
-    height: 792px;
-    background-image: url("../img/beach_bg.png");
+    margin-top: 96px;
+}
+
+#moving {
+    background: url('../img/beach_bg.png') no-repeat fixed center top/cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    padding: 86px 0 94px 0;
+    position: relative;
+    z-index: 1;
+}
+
+#moving:after {
+    content: "";
+    background-color: rgba(30, 53, 70, 0.90);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
 }
 
 .moving-content__transit{
@@ -273,9 +304,28 @@ body{
 
 }
 
+.moving-content__quote{
+    margin-top: 29px;
+    width: 440px;
+    text-align: center;
+}
 
+.moving-content__quote-text{
+    color: #ffffff;
+    font-weight: 100;
+    line-height: 26px;
+    font-size: 14px;
+    letter-spacing: 2.52px;
+}
 
-
+.moving-content__quote-author{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 2.52px;
+    line-height: 29px;
+    text-transform: uppercase;
+}
 
 
 
