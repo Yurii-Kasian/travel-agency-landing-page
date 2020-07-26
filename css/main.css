@@ -121,7 +121,7 @@ body{
     border: 1px dashed #24a5db;
     text-align: center;
     line-height: 25px;
-    background-color: #103246;
+    background-color: inherit;
 }
 
 .b-contacts__phone{
@@ -328,17 +328,63 @@ body{
 }
 
 
+.question{
+    border: dashed 2px white;
+    width: 770px;
+    height: 166px;
+}
 
+.question__btn{
+    width: 33px;
+    height: 33px;
+    color: white;
+    border: 1px dashed white;
+    text-align: center;
+    line-height: 33px;
+    background-color: inherit;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
 
+.q-btn-up{
+    position: absolute;
+    margin-top: 109px;
+}
 
+.q-btn-up button{
+    position: relative;
 
+}
 
+.q-btn-dwn{
+    position: absolute;
+    margin-top: 274px;
+}
 
+.q-btn-dwn button{
+    position: relative;
+}
 
+.question{
+    text-align: center;
+    margin-top: ;
+}
 
+.question__text{
+    margin-top: 39px;
+    font-size: 19px;
+    font-weight: 200;
+    line-height: 35px;
+    text-transform: uppercase;
+}
 
-
-
+.question__text-BGR{
+    font-weight: 800;
+    font-size: 23px;
+    letter-spacing: 2.3px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
 
 
 
