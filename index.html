@@ -2,129 +2,120 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Главная/Compass</title>
-    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Главная / Compass</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
-    <header class="header">
-        <div class="top-header main-header">
+    <header class="main-page-header header">
+        <div class="main-heading">
             <div class="container">
-                <div class="row align-items-lg-center justify-content-lg-between">
+                <div class="row">
+
                     <div class="col-lg-2">
-                        <div class="b-logo">
-                            <a href="#" class="logo d-flex">
-                                <img src="img/logo.png" alt="Compass" class="logo__img img-fluid">
-                            </a>
+                        <a href="#">
+                            <img src="img/logo.png" alt="Compass">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-7 align-items-center d-flex">
+                        <nav>
+                            <ul class="main-menu d-flex">
+                                <li class="main-menu__item">
+                                    <a class="ls-100" href="#">Главная</a>
+                                </li>
+                                <li class="main-menu__item active">
+                                    <a class="ls-100" href="#">О компании</a>
+                                </li>
+                                <li class="main-menu__item">
+                                    <a class="ls-100" href="#">ВНЖ и ПМЖ в Болгарии</a>
+                                </li>
+                                <li class="main-menu__item">
+                                    <a class="ls-100" href="#">Недвижимость и переезд</a>
+                                </li>
+                                <li class="main-menu__item">
+                                    <a class="ls-100" href="#">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="col-lg-3 align-items-center d-flex">
+                        <div class="phones ml-auto">
+                            <span class="phones__item d-block">
+                                +7 (495) 12-321-345
+                            </span>
+                            <span class="phones__item d-block">
+                                +7 (528) 12-321-345
+                            </span>
                         </div>
                     </div>
-                    <div class="col-lg-7">
-                        <div class="main-nav">
-                            <nav>
-                                <ul class="main-nav__list d-flex">
-                                    <li class="main-nav__item">
-                                        <a href="#" class="main-nav__link">
-                                            Главная</a>
-                                    </li>
-                                    <li class="main-nav__item">
-                                        <a href="#" class="main-nav__link">
-                                            О компании</a>
-                                    </li>
-                                    <li class="main-nav__item">
-                                        <a href="#" class="main-nav__link">
-                                            ВНЖ и ПМЖ в Болгарии</a>
-                                    </li>
-                                    <li class="main-nav__item">
-                                        <a href="#" class="main-nav__link">
-                                            Недвижимость и переезд</a>
-                                    </li>
-                                    <li class="main-nav__item">
-                                        <a href="#" class="main-nav__link">
-                                            Контакты</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="b-contacts d-flex">
-                            <div class="b-contacts__phone">
-                                <button class="phone__icon tube pulse">
-                                    <i class="fa fa-phone-alt"></i>
-                                </button>
-                            </div>
-                            <div class="b-contacts__numbers">
-                                <a href="tel:+749512321345">+7 (495) 12-321-345</a>
-                                <a href="tel:+798512321345">+7 (985) 12-321-345</a>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
-                <div class="container">
-                    <div class="row">
-                       <h1 class="text-header">
-                           Болгария <span class="text-header__description">ждет вас</span>
-                       </h1>
-                    </div>
-                </div>
 
-                <div class="arrow-header">
-                    <a href="#" class="arrow-header__scroll">
-                        <i class="fas fa-chevron-down"></i>
-                    </a>
-                </div>
+        <div class="main-page-offer offer">
+            <div class="container">
+                <h1 class="main-title">
+                    <span class="main-title__item main-title__item-big">
+                        Болгария
+                    </span>
+                    <span class="main-title__item main-title__item-small">
+                        ждет вас
+                    </span>
+                </h1>
+            </div>
+        </div>
+
+        <a href="#" class="main-page-arrow scroll-arrow">
+
+        </a>
     </header>
 
-    <!----  First section  ---->
-
-    <section class="main-content">
+    <!--  first section  -->
+    <section id="advantage" class="advantage">
         <div class="container">
 
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="main-content__advantages">
-                        <h2 class="main-content__advantages-title">Наши преимущества</h2>
-                    </div>
+            <div class="row">
+                <div class="col">
+                    <h2>
+                        Наши преимущества
+                    </h2>
                 </div>
             </div>
 
-            <div class="row text-center">
-                <div class="col-lg-4">
-                    <div class="box-icon shadow">
-                        <img src="img/reliability-icon.png" alt="Reliability" class="box-icon__img">
-                        <h5 class="box-icon__title">
+            <div class="row">
+                <div class="col-lg-4 d-flex">
+                    <div class="merit">
+                        <div class="merit__img merit-img__reliability"></div>
+                        <div class="merit__title title">
                             Надежность
-                        </h5>
-                        <p>
+                        </div>
+                        <p class="merit__text">
                             Мы всегда придем к вам на помощь в решении самых неоднозначных вопросов
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="box-icon shadow">
-                        <img src="img/credibility-icon.png" alt="Credibility" class="box-icon__img">
-                        <h5 class="box-icon__title">
+                <div class="col-lg-4 d-flex">
+                    <div class="merit">
+                        <div class="merit__img merit-img__credibility"></div>
+                        <div class="merit__title title">
                             Достоверность
-                        </h5>
-                        <p>
+                        </div>
+                        <p class="merit__text merit__text_credibility">
                             Достоверность - главный принцип нашей работы. Мы знаем все тонкости переезда в Болгарию и оформления соответствующих документов
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="box-icon shadow">
-                        <img src="img/competence-icon.png" alt="Competence" class="box-icon__img">
-                        <h5 class="box-icon__title">
+                <div class="col-lg-4 d-flex">
+                    <div class="merit">
+                        <div class="merit__img merit-img__competence"></div>
+                        <div class="merit__title title">
                             Компетентность
-                        </h5>
-                        <p>
+                        </div>
+                        <p class="merit__text merit__text_competence">
                             Наши специалисты с большим опытом работы помогут разобраться во всех юридических тонкостях переезда
                             на ПМЖ в Болгарию
                         </p>
@@ -134,170 +125,50 @@
         </div>
     </section>
 
-
-    <!----  Second section  ---->
-    <section class="moving-content" id="moving">
+    <!--  second section  -->
+    <section class="moving" id="moving">
         <div class="container">
-            <div class="row justify-content-center">
-
-                <div class="col-lg-6">
-                    <div class="moving-content__transit">
-                        <h2 class="moving-content__transit-title">
-                            Переезд в Болгарию
-                        </h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-5">
-                    <div class="moving-content__quote">
-                        <p class="moving-content__quote-text">
-                            <em>«Если Вам не нравится то место, где вы находитесь - смените его, Вы же не дерево»</em>
-                            <span class="moving-content__quote-author">Джим Рон</span>
-                        </p>
-                    </div>
-                </div>
-
-            <div class="q-btn-up">
-                <button class="question__btn ">
-                    <i class="fas fa-caret-down"></i>
-                </button>
-            </div>
 
             <div class="row">
-                <div class="col-lg-8 ">
-                    <div class="question">
-                        <p class="question__text">
-                            Пришло время и перед Вами стоит вопрос
-                        </p>
-                        <span class="question__text-BGR">
-                            Как переехать в Болгарию на ВНЖ или ПМЖ?
-                        </span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="q-btn-dwn">
-                <button class="question__btn">
-                    <i class="fas fa-caret-down"></i>
-                </button>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="answer">
-                        <h2 class="answer__title">
-                            Мы знаем ответ
-                        </h2>
-                        <p class="answer__text">
-                            Подберем для Вас оптимальный вариант и предложим лучшие условия!
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-2">
-                        <button class="btn btn-primary btn__answer">
-                            Узнать больше
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-
-    <!----  Third section   ---->
-    <section class="services-content" id="services-content">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <h2 class="property__title">
-                        Недвижимость и транспортные услуги
+                <div class="col">
+                    <h2 class="crossing__title t-white">
+                        Переезд в Болгарию
                     </h2>
                 </div>
             </div>
 
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="services">
-                        <div class="images d-flex">
-                            <div class="images__house-1">
-                                <img src="img/house__1.png" alt="house__1">
-                            </div>
-                            <div class="images__house-2">
-                                <img src="img/house__2.png" alt="house__2">
-                            </div>
-                            <div class="images__house-3">
-                                <img src="img/house__3.png" alt="house__3">
-                            </div>
-                        </div>
-
-                        <div class="services__first">
-
-                            <div class="round">
-
-                            </div>
-                        </div>
-                        <div class="services__second">
-
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col-lg-6 ml-auto">
+                    <p class="crossing__text t-white">
+                        <i>«Если Вам не нравится то место, где вы находитесь -
+                            смените его, Вы же не дерево»
+                        </i>
+                        <span class="crossing__writer t-white">Джим Рон</span>
+                    </p>
                 </div>
             </div>
 
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="moving__arrow arrow__top">
+                        <img src="img/arrow2.png" alt="arrow">
+                    </div>
+                    <div class="override ">
+                        <h3 class="override__title t-white">
+                            Пришло время и перед Вами стоит вопрос
+                            <span class="override__text t-white">Как переехать в Болгарию на ВНЖ или ПМЖ?</span>
+                        </h3>
+                    </div>
+                    <div class="moving__arrow arrow__bottom">
+                        <img src="img/arrow2.png" alt="arrow">
+                    </div>
+
+                </div>
+            </div>
 
         </div>
-
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <footer class="main-footer">
-        <div class="container">
-            <div class="row align-items-lg-center justify-content-lg-between">
-                <div class="col-lg-3">
-                    <div class="b-logo">
-                        <img src="img/logo.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 d-flex">
-                    <div class="credits">
-                        2020/Все права защищены
-                    </div>
-                    <div class="credits">
-                        <span class="show-modal">Политика конфиденциальности</span>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="b-contacts">
-                        <div class="b-contacts__numbers">
-                            <a href="tel:+749512321345">+7 (495) 12-321-345</a>
-                            <a href="tel:+798512321345">+7 (985) 12-321-345</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
 
 </body>
 </html>
