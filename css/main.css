@@ -454,6 +454,9 @@ background: url("../img/six_bg.jpg") no-repeat center top / cover;
 
 
 /*----seventh section----*/
+.footer{
+    background: #23aae2;
+}
 
 .credits{
     justify-content: center;
@@ -461,8 +464,12 @@ background: url("../img/six_bg.jpg") no-repeat center top / cover;
     height: 100%;
 }
 
-.footer{
-    background: #23aae2;
+.credits__text{
+    opacity: 0.76;
+    color: #faf7f7;
+    font-family: "Museo Sans Cyrl 100";
+    font-size: 14px;
+    line-height: 17px;
 }
 
 .phones__white{
@@ -472,5 +479,4 @@ background: url("../img/six_bg.jpg") no-repeat center top / cover;
 .show-modal{
     border-bottom: 1px dotted #fff;
     cursor: pointer;
-
 }
