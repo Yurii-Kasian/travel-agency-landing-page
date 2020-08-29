@@ -71,6 +71,20 @@ section{
 .t-white{
     color: white;
 }
+
+.btn-learn-more{
+    border-radius: 4px;
+    border: 2px solid #ffffff;
+    text-transform: uppercase;
+    font-family: "Museo Sans Cyrl 900";
+    font-size: 15px;
+    line-height: 35px;
+    letter-spacing: 1.5px;
+    background: inherit;
+    margin-top: 25px;
+    padding: 7px 16px;
+}
+
 /*----first section----*/
 
 .header{
@@ -212,7 +226,7 @@ section{
 /*----third section----*/
 
 .moving{
-    background: url("../img/third_bg.jpg") no-repeat center top / cover;
+    background: url("../img/second_bg.jpg") no-repeat center top / cover;
 }
 
 .crossing__text{
@@ -265,4 +279,198 @@ section{
 
 .arrow__bottom{
     margin-top: -16.5px;
+}
+
+.answer{
+    margin-top: 71px;
+}
+
+.answer__title{
+    font-size: 37px;
+    font-family: 'Museo Sans Cyrl 900';
+    letter-spacing: 3.7px;
+    line-height: 40px;
+}
+
+.answer__text{
+    font-size: 18px;
+    font-family: 'Museo Sans Cyrl 100';
+    letter-spacing: 1.8px;
+    text-align: center;
+}
+
+.answer__btn{
+    border-radius: 4px;
+    border: 2px solid #ffffff;
+    text-transform: uppercase;
+    font-family: "Museo Sans Cyrl 900";
+    font-size: 15px;
+    line-height: 35px;
+    letter-spacing: 1.5px;
+    background: inherit;
+    margin-top: 25px;
+    padding: 7px 16px;
+}
+
+
+/*----fourth section----*/
+
+.immovables{
+    background: url("../img/third_bg.png") no-repeat center top / cover;
+}
+
+.immovables__title{
+    line-height: 17px;
+    letter-spacing: 4.2px;
+    margin-bottom: 50px;
+}
+
+.service{
+    position: relative;
+}
+
+.service__img{
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: -120px;
+}
+
+.service__text{
+    padding: 42px 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.service__first{
+    background: #f4f4f4;
+    margin-bottom: 10px;
+    margin-top: 120px;
+    position: relative;
+}
+
+.service__first__title{
+    padding-top: 70px;
+}
+
+.service__first__text{
+    font-size: 17px;
+    font-family: "Museo Sans Cyrl 100";
+    line-height: 25px;
+}
+.service__second{
+    background: #f4f4f4;
+    position: relative;
+}
+
+.service__img1{
+    margin-right: -60px;
+    margin-top: 50px;
+}
+
+.service__img2{
+    z-index: 20;
+}
+
+.service__img3{
+    margin-top: 60px;
+    margin-left: -89px;
+}
+
+.circle{
+    margin-top: -40px;
+    position: absolute;
+    z-index: 20;
+    left: 50%;
+    margin-left: -30px;
+}
+
+.service__btn{
+    color: #23aae2;
+    border: 2px solid #23aae2;
+    margin-top: 60px;
+}
+
+/*----fifth section----*/
+
+
+
+
+
+/*----sixth section----*/
+.consultation{
+background: url("../img/six_bg.jpg") no-repeat center top / cover;
+}
+
+.consultation__title{
+
+}
+
+.consultation__text{
+    text-transform: uppercase;
+    font-size: 21px;
+    letter-spacing: 2.1px;
+    font-family: "Museo Sans Cyrl 100";
+    line-height: 27px;
+}
+
+.consultation__arrow3{
+    margin-top: 35px;
+}
+
+.consultation__form{
+    margin-top: 30px;
+}
+
+
+.consultation__form input{
+    margin-bottom: 9px;
+}
+
+.consultation__field{
+    color: white;
+    height: 67px;
+    width: 370px;
+    padding: 0 35px;
+    border-radius: 3px;
+    border: 1px solid #ffffff;
+    background-color: #30c2ff;
+    font-size: 13px;
+    line-height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+
+.consultation__field:hover{
+    color: white;
+    box-shadow: 0 0 35px rgba(14, 14, 14, 0.3);
+}
+
+.consultation__btn{
+    width: 369px;
+    height: 70px;
+    padding: 30px auto;
+}
+
+
+/*----seventh section----*/
+
+.credits{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.footer{
+    background: #23aae2;
+}
+
+.phones__white{
+    background: url("../img/phone_white.png") no-repeat 9px center;
+}
+
+.show-modal{
+    border-bottom: 1px dotted #fff;
+    cursor: pointer;
+
 }
