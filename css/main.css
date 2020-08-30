@@ -98,6 +98,8 @@ section{
 
 .main-heading{
     background: rgba(0,0,0,0.25);
+    position: relative;
+    z-index: 6;
 }
 
 .main-menu{
@@ -138,6 +140,7 @@ section{
     top: 0;
     width: 100%;
     height: 100vh;
+    z-index: 1;
 }
 
 .main-page-offer .container{
