@@ -471,6 +471,11 @@ section{
     right: -85px;
 }
 
+.boolits{
+    justify-content: center;
+
+}
+
 .boolit{
     margin-top: 51px;
     width: 19px;
