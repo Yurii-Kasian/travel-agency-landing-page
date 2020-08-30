@@ -393,8 +393,96 @@ section{
 
 /*----fifth section----*/
 
+.slider{
+    margin-top: 67px;
+    position: relative;
+}
 
+.slide{
+    border-radius: 3px;
+    box-shadow: 1px 2px 4px rgba(149, 147, 147, 0.33);
+}
 
+.slide__img{
+    align-self: center;
+    margin-left: -66.5px;
+}
+
+.slide__content{
+    margin-top: 44px;
+}
+
+.slide__content h3{
+    font-size: 16px;
+    line-height: 17px;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+}
+
+.slide__content__text{
+    color: #23aae2;
+    font-family: "Museo Sans Cyrl 900";
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.slide__info{
+    justify-content: space-around;
+}
+.slide__content span{
+    color: #23aae2;
+    font-family: "Museo Sans Cyrl 100";
+    font-size: 12px;
+    line-height: 17px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.slide__text{
+    text-align: left;
+    width: 595px;
+    color: #363636;
+    font-family: "Museo Sans Cyrl 100 Italic";
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.4px;
+    margin-left: 40px;
+}
+
+.slider__nav{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.slider__arrow{
+
+}
+
+.slider__arrow__left{
+    position: absolute;
+    left: -134px;
+}
+
+.slider__arrow__right{
+    position: absolute;
+    right: -85px;
+}
+
+.boolit{
+    margin-top: 51px;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    border: 1px dashed #23aae2;
+    margin-left: 7px;
+}
+
+.boolit:hover{
+    background-color: #23aae2;
+}
 
 
 /*----sixth section----*/
