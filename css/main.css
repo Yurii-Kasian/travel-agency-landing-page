@@ -165,13 +165,13 @@ section{
 
 .main-title__item-big{
     font-size: 90px;
-    letter-spacing: 41.4px;
+    letter-spacing: 0.46em;
     margin-bottom: 20px;
 }
 
 .main-title__item-small{
     font-size: 51px;
-    letter-spacing: 10.2px;
+    letter-spacing: 0.15em;
 }
 
 
@@ -233,9 +233,6 @@ section{
 }
 
 .crossing__text{
-    width: 440px;
-    margin-left: -220px;
-    text-align: center;
     font-family: 'Museo Sans Cyrl 100';
     font-size: 18px;
     line-height: 26px;
@@ -323,7 +320,6 @@ section{
 }
 
 .immovables__title{
-    line-height: 17px;
     letter-spacing: 4.2px;
     margin-bottom: 50px;
 }
@@ -408,11 +404,12 @@ section{
 
 .slide__img{
     align-self: center;
-    margin-left: -66.5px;
+    margin-left: -40px;
 }
 
 .slide__content{
     margin-top: 44px;
+    width: 100%;
 }
 
 .slide__content h3{
@@ -434,6 +431,7 @@ section{
 .slide__info{
     justify-content: space-around;
 }
+
 .slide__content span{
     color: #23aae2;
     font-family: "Museo Sans Cyrl 100";
@@ -445,13 +443,11 @@ section{
 
 .slide__text{
     text-align: left;
-    width: 595px;
     color: #363636;
     font-family: "Museo Sans Cyrl 100 Italic";
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 1.4px;
-    margin-left: 40px;
 }
 
 .slider__nav{
@@ -466,12 +462,12 @@ section{
 
 .slider__arrow__left{
     position: absolute;
-    left: -134px;
+    left: -56px;
 }
 
 .slider__arrow__right{
     position: absolute;
-    right: -85px;
+    right: -20px;
 }
 
 .boolits{
