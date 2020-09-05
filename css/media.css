@@ -22,3 +22,20 @@
     }
 }
 
+@media screen and (max-width: 576px) {
+    .container{
+        width: 90%;
+    }
+    .advantage__title {
+        font-size: 30px;
+    }
+    .immovables__title{
+        font-size: 25px;
+    }
+    .main-title__item-big {
+        font-size: 30px;
+    }
+    .btn-learn-more{
+        letter-spacing: unset;
+    }
+}
