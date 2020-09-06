@@ -392,34 +392,29 @@ section{
 
 /*----fifth section----*/
 
-.slider{
+.reviews{
     margin-top: 67px;
-    position: relative;
-}
-
-.slide{
     border-radius: 3px;
     box-shadow: 1px 2px 4px rgba(149, 147, 147, 0.33);
 }
 
-.slide__img{
+.slick-slide__img{
     align-self: center;
-    margin-left: -40px;
 }
 
-.slide__content{
+.slick-slide{
     margin-top: 44px;
     width: 100%;
 }
 
-.slide__content h3{
+.slick-slide__content h3{
     font-size: 16px;
     line-height: 17px;
     text-transform: uppercase;
     letter-spacing: 1.6px;
 }
 
-.slide__content__text{
+.slick-slide__content__text{
     color: #23aae2;
     font-family: "Museo Sans Cyrl 900";
     font-size: 12px;
@@ -428,11 +423,11 @@ section{
     text-transform: uppercase;
     letter-spacing: 1.2px;
 }
-.slide__info{
+.slick-slide__info{
     justify-content: space-around;
 }
 
-.slide__content span{
+.slick-slide__content__direction{
     color: #23aae2;
     font-family: "Museo Sans Cyrl 100";
     font-size: 12px;
@@ -441,7 +436,8 @@ section{
     letter-spacing: 1.2px;
 }
 
-.slide__text{
+.slick-slide__text{
+    padding: 0 20px;
     text-align: left;
     color: #363636;
     font-family: "Museo Sans Cyrl 100 Italic";
@@ -450,42 +446,15 @@ section{
     letter-spacing: 1.4px;
 }
 
-.slider__nav{
-    position: absolute;
-    top: 50%;
-    width: 100%;
+.slick-prev{
+    background: url("../img/left.png") no-repeat center center;
 }
-
-.slider__arrow{
-
+.slick-next{
+    background: url("../img/right.png") no-repeat center center;
 }
-
-.slider__arrow__left{
-    position: absolute;
-    left: -56px;
-}
-
-.slider__arrow__right{
-    position: absolute;
-    right: -20px;
-}
-
-.boolits{
-    justify-content: center;
-
-}
-
-.boolit{
-    margin-top: 51px;
-    width: 19px;
-    height: 19px;
+.slick-dots li{
     border-radius: 50%;
-    border: 1px dashed #23aae2;
-    margin-left: 7px;
-}
-
-.boolit:hover{
-    background-color: #23aae2;
+    border: 2px dashed blue;
 }
 
 
