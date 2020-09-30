@@ -1,0 +1,41 @@
+@media screen and (max-width: 992px) {
+    .main-title__item-big{
+        font-size: 60px;
+    }
+    .main-title__item-small{
+        font-size: 40px;
+    }
+    .merit{
+        margin-top: 21px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-title__item-big{
+        font-size: 40px;
+    }
+    .main-title__item-small{
+        font-size: 20px;
+    }
+    .merit{
+        margin-top: 21px;
+    }
+    .credits__text{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .main-title__item-big{
+        font-size: 32px;
+    }
+    .main-title__item-small{
+
+    }
+    .advantage__title{
+        font-size: 35px;
+    }
+    .immovables__title{
+        font-size: 28px;
+    }
+}

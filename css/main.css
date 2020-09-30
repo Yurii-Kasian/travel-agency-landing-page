@@ -392,71 +392,120 @@ section{
 
 /*----fifth section----*/
 
-.reviews{
-    margin-top: 67px;
-    border-radius: 3px;
-    box-shadow: 1px 2px 4px rgba(149, 147, 147, 0.33);
+.reviews-slide {
+    margin-bottom: 0;
 }
 
-.slick-slide__img{
-    align-self: center;
+.slider {
+    margin-bottom: 49px;
+    position: relative;
+    outline: none;
 }
 
-.slick-slide{
-    margin-top: 44px;
-    width: 100%;
+.slide {
+    margin-left: 60px;
+    margin-right: 20px;
 }
 
-.slick-slide__content h3{
+.slide__img {
+    margin-left: -57px;
+    margin-bottom: 34px;
+}
+
+.slide__content {
+    margin-left: 57px;
+    padding: 0 42px 34px 0;
+}
+
+.slide__title {
     font-size: 16px;
-    line-height: 17px;
-    text-transform: uppercase;
-    letter-spacing: 1.6px;
+    margin-right: 10px;
 }
 
-.slick-slide__content__text{
+.slide__link-user {
     color: #23aae2;
-    font-family: "Museo Sans Cyrl 900";
-    font-size: 12px;
-    line-height: 20px;
-    text-decoration: underline;
+    font: 12px 'Museo Sans Cyrl 900', sans-serif;
+    border-bottom: 1px solid #b5dcf3;
     text-transform: uppercase;
-    letter-spacing: 1.2px;
-}
-.slick-slide__info{
-    justify-content: space-around;
 }
 
-.slick-slide__content__direction{
+.slide__link-user:hover {
     color: #23aae2;
-    font-family: "Museo Sans Cyrl 100";
+}
+
+.slide__address {
     font-size: 12px;
-    line-height: 17px;
+    font-weight: bold;
+    color: #23aae2;
     text-transform: uppercase;
-    letter-spacing: 1.2px;
+    letter-spacing: 0.1em;
+    -webkit-flex-basis: 156px;
+    -ms-flex-preferred-size: 156px;
+    flex-basis: 156px;
+    text-align: right;
 }
 
-.slick-slide__text{
-    padding: 0 20px;
-    text-align: left;
-    color: #363636;
-    font-family: "Museo Sans Cyrl 100 Italic";
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 1.4px;
+.slide__direction {
+    font-family: 'Minion Pro Regular', serif;
 }
 
-.slick-prev{
-    background: url("../img/left.png") no-repeat center center;
+.slide__text {
+    margin-top: 27px;
+    font: 14px 'Museo Sans Cyrl 100 Italic', sans-serif;
+    letter-spacing: 0.1em;
+    line-height: 1.25em;
 }
+
+.arrows-slider {
+    font-size: 24px;
+    color: #23aae2;
+    position: absolute;
+}
+
+.arrows-slider:hover  {
+    font-size: 27px;
+    color: #23abc1;
+}
+
+.slider-prew {
+    top: 30%;
+    left: -60px;
+}
+
+.slick-prev:before{
+    background-image: url("../img/left.png");
+}
+
+.slider-next {
+    top: 30%;
+    right: -80px;
+}
+
 .slick-next{
-    background: url("../img/right.png") no-repeat center center;
-}
-.slick-dots li{
-    border-radius: 50%;
-    border: 2px dashed blue;
+    background-image: url("../img/right.png");
 }
 
+
+.slick-dots li {
+    width: 16px;
+    height: 16px;
+    border: 1px dashed #23aae2;
+    margin-right: 6px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+li.slick-active {
+    background-color: #23aae2;
+}
+
+.slick-dots li:hover {
+    background-color: #23aae2;
+}
+
+.slick-dots li button:before {
+    content: '';
+}
 
 /*----sixth section----*/
 .consultation{
@@ -540,4 +589,8 @@ background: url("../img/six_bg.jpg") no-repeat center top / cover;
 .show-modal{
     border-bottom: 1px dotted #fff;
     cursor: pointer;
+}
+
+.slick-dots > li::after {
+
 }
